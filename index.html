@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimmiwon's Little Blue World 💙</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<audio id="birthdayMusic" loop preload="auto">
+    <source src="audio/birthday-music.mp3" type="audio/mpeg">
+    Your browser does not support this audio file.
+</audio>
+<audio id="countdownAudio" loop preload="auto">
+    <source src="audio/countdown.mp3" type="audio/mpeg">
+</audio>
+<div class="stars" id="stars"></div>
+
+<!-- COUNTDOWN LOCK SCREEN -->
+<section class="countdown-screen" id="countdownScreen">
+
+    <div class="moon">🌙</div>
+
+    <div class="puppy">🐾</div>
+
+    <p class="top-text">A LITTLE SURPRISE IS WAITING FOR YOU</p>
+
+    <h1>
+        Something magical<br>
+        is coming for<br>
+        <span>Nimmiwon</span> 💙
+    </h1>
+
+    <p class="countdown-message">
+        Your little blue world is still sleeping...
+        <br>
+        Come back when the clock strikes midnight! ✨
+    </p>
+
+    <div class="countdown-container">
+
+        <div class="countdown-box">
+            <span id="days">00</span>
+            <small>Days</small>
+        </div>
+
+        <div class="countdown-box">
+            <span id="hours">00</span>
+            <small>Hours</small>
+        </div>
+
+        <div class="countdown-box">
+            <span id="minutes">00</span>
+            <small>Minutes</small>
+        </div>
+
+        <div class="countdown-box">
+            <span id="seconds">00</span>
+            <small>Seconds</small>
+        </div>
+
+    </div>
+
+    <p class="unlock-date">
+        ✦ 18 NOVEMBER 2026 · 12:00 AM IST ✦
+    </p>
+
+    <p class="bottom-text">
+        A little world made with lots of love 🐾
+    </p>
+
+</section>
+
+
+<!-- WELCOME SCREEN -->
+<main class="welcome-screen" id="welcomeScreen">
+
+    <div class="moon">🌙</div>
+
+    <div class="puppy">🐾</div>
+
+    <p class="top-text">
+        A LITTLE MAGIC WAS MADE FOR SOMEONE SPECIAL
+    </p>
+
+    <h1>
+        Welcome to<br>
+        <span>Nimmiwon's</span><br>
+        Little Blue World 💙
+    </h1>
+
+    <p class="birthday-date">18 • 11 • 2006</p>
+
+    <div class="divider">✦ ───── ♡ ───── ✦</div>
+
+    <p class="welcome-message">
+        Somewhere in this little universe,<br>
+        there is a beautiful soul worth celebrating.
+        <br><br>
+        And today, this magical world belongs to you.
+    </p>
+
+    <button id="enterButton">
+        Enter Your Magical World ✨
+    </button>
+
+    <p class="bottom-text">
+        Made with love, just for you 🐾
+    </p>
+
+</main>
+
+
+<!-- BIRTHDAY WORLD -->
+<section class="birthday-world" id="birthdayWorld">
+    <div class="photo-reveal" id="photoReveal">
+        <div class="fireworks">🎆 ✨ 🎇</div>
+
+        <h1>Someone Special Was Born Today! 💙</h1>
+
+        <div class="birthday-photo-frame">
+            <img src="images/nimmiwon-birthday.jpg"
+                 alt="Nimmiwon at sunset">
+        </div>
+
+        <h2>Happy 20th Birthday, Nimmiwon! 💙</h2>
+
+        <p>Tonight, the stars shine a little brighter for you. ✨</p>
+
+        <div class="fireworks">✨ 🎇 🎆 ✨</div>
+    </div>
+    <div class="world-content">
+
+        <p class="top-text">TODAY IS ALL ABOUT YOU ✨</p>
+
+        <h1>
+            Happy Birthday,<br>
+            <span>Nimmiwon!</span> 💙
+        </h1>
+
+        <h2>You're officially 20!</h2>
+
+        <p class="world-message">
+            On 18 November 2006, a beautiful soul
+            came into this world.
+            <br><br>
+            Today, we celebrate the happiness,
+            kindness and magic that you bring
+            into the lives around you.
+        </p>
+
+        <div class="birthday-decoration">
+            🐾 ✨ 💙 ✨ 🐾
+        </div>
+
+        <p class="special-note">
+            You deserve all the beautiful things
+            this world has to offer.
+        </p>
+
+        <!-- DOG LETTER DELIVERY -->
+        <div class="letter-section">
+
+            <h2>A Special Delivery! 💌</h2>
+
+            <p>
+                Someone very special has a message for you...
+            </p>
+
+            <div class="delivery-scene" id="deliveryScene">
+
+                <div class="delivery-dog" id="deliveryDog">
+
+                    <img
+                        src="images/dog-animation.gif"
+                        alt="Cute animated white dog wearing glasses and delivering a birthday letter"
+                        class="dog-animation"
+                        id="dogAnimation"
+                >
+
+                    <span class="dog-envelope" id="dogEnvelope">
+                        💌
+                    </span>
+
+                </div>
+
+                <div class="delivered-envelope" id="deliveredEnvelope">
+                    💌
+                </div>
+
+                <p class="delivery-message" id="deliveryMessage">
+                    Your furry messenger is getting ready...
+                </p>
+
+            </div>
+
+            <button id="letterButton" disabled>
+                Waiting for your little messenger... 🐾
+            </button>
+
+            <!-- BIRTHDAY LETTER -->
+            <div class="letter-content" id="letterContent">
+
+                <div class="letter-paper">
+
+                    <h2>Dear Nimmiwon, 💙</h2>
+
+                    <p>Happy 20th Birthday!</p>
+
+                    <p>
+                        May your life always be filled with
+                        beautiful moments, genuine smiles,
+                        endless happiness and countless reasons
+                        to feel loved.
+                    </p>
+
+                    <p>
+                        May every dream you carry find its way
+                        to becoming reality. Never stop being
+                        the wonderful person you are.
+                    </p>
+
+                    <p>
+                        You deserve a world as beautiful
+                        as your heart.
+                    </p>
+
+                    <p>
+
+                    </p>
+
+                    <h3>With lots of love, 💙🐾</h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+<button onclick="testTickingSound()">
+    TEST COUNTDOWN SOUND
+</button>
+
+<script>
+    function testTickingSound() {
+        const audio = document.getElementById("countdownAudio");
+
+        audio.currentTime = 0;
+        audio.volume = 1;
+        audio.loop = true;
+
+        audio.play()
+            .then(() => alert("Audio started!"))
+            .catch(error => alert("Audio error: " + error));
+    }
+</script>
+</body>
+</html>
