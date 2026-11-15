@@ -244,22 +244,6 @@
 </section>
 
 <script src="script.js"></script>
-<button onclick="testTickingSound()">
-    TEST COUNTDOWN SOUND
-</button>
-
-<script>
-    function testTickingSound() {
-        const audio = document.getElementById("countdownAudio");
-
-        audio.currentTime = 0;
-        audio.volume = 1;
-        audio.loop = true;
-
-        audio.play()
-            .then(() => alert("Audio started!"))
-            .catch(error => alert("Audio error: " + error));
-    }
 </script>
 </body>
 </html>
