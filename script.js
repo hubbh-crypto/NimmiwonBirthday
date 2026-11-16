@@ -37,7 +37,7 @@ const countdownAudio = document.getElementById("countdownAudio");
 // TEMPORARY TEST: 60 SECONDS
 // After testing, restore the actual birthday date below.
 // NIMMIWON'S BIRTHDAY: 18 NOVEMBER 2026, 12:00 AM IST
-const birthdayDate = new Date("2026-11-18T00:00:00+05:30").getTime();
+const birthdayDate = Date.now() + 30000;
 // ACTUAL BIRTHDAY DATE:
 // const birthdayDate = new Date("2026-11-18T00:00:00+05:30").getTime();
 
